@@ -1,3 +1,27 @@
-.logo{
+.logo {
     max-height: 75px;
+    max-width: 75px;
+}
+
+.preview-img {
+    max-height: 50px;
+    max-width: 50px;
+}
+
+footer{
+    color: #ffffff;
+}
+
+.copyright-button {
+    display: unset;
+}
+
+.copyright-button:hover img{
+    content: url('../../img/brand/logo-black.svg');
+}
+
+.copyright-logo {
+    max-height: 25px;
+    max-width: 25px;
+    padding-bottom: 5px;
 }
