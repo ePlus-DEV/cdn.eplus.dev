@@ -119,18 +119,14 @@
 <script src="assets/clipboard/clipboard.min.js"></script>
 <script src="assets/js/tilt.jquery.min.js"></script>
 <script src="assets/js/common.js"></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MS44MD8ENV"></script>
 <script>
-    window.dataLayer = window.dataLayer || [];
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-    gtag('config', 'G-MS44MD8ENV');
+  gtag('config', 'G-MS44MD8ENV');
 </script>
-
 </body>
 </html>
